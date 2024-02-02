@@ -4,7 +4,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fae1dd;
+  background-color: #569ddc;
+}
+
+.judul {
+  position: absolute;
+  font-family: "Brush Script MT", cursive;
+  font-size: xx-large;
+  margin-bottom: 40rem;
+  text-align: center;
+  text-shadow: 0.5rem 0.5rem 1rem rgba(78, 39, 6);
+  color: #fff;
 }
 
 .container {
@@ -60,17 +70,29 @@ body {
 
 .text {
   position: absolute;
-  font-family:  'Brush Script MT', cursive;
-  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 25px;
+  margin: 0;
+  color: #003049;
+  padding: 1rem;
+}
+
+/* .text-p {
+  position: absolute;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1rem;
   text-align: center;
   line-height: 25px;
   top: 19px;
   left: 85px;
   color: #003049;
-}
+  margin-right: 5rem;
+} */
 
 .heart {
-  background-color: #d62828;
+  background-color: #1121d0;
   display: inline-block;
   height: 30px;
   margin: 0 10px;
@@ -84,7 +106,7 @@ body {
 .heart:before,
 .heart:after {
   content: "";
-  background-color: #d62828;
+  background-color: #1121d0;
   border-radius: 50%;
   height: 30px;
   position: absolute;
